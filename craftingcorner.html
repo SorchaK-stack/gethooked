@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Grand+Hotel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="craftingcorner.css">
+</head>
+<body>
+    <div id="logo">
+        <p><a href="https://sorchak-stack.github.io/gethooked/">
+            <img src="Get Hooked.png" alt="GetHooked" width="150px" height="150px">
+        </a></p>
+    </div>
+    <h1>Oh! Looks like you're not signed in.</h1>
+    <h2>In order to access the Crafting Corner, you'll need to create an account.</h2>
+    <p>Already have an account? <a href="#">Log In</a></p>
+    <div id="forum">
+        <form action="welcome.php" method="POST">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email address:</label><br>
+            <input type="text" id="email" name="email"><br>
+            
+            <label for="psw">Password:</label><br>
+            <input type="text" id="psw" name="psw" placeholder="Create a strong password..."><br>
+            
+            <label for="Region">Region you live in</label><br>
+            <select name="Region">
+                <option value="R1">North America</option>
+                <option value="R2">Central America</option>
+                <option value="R3">South America</option>
+                <option value="R4">Europe</option>
+                <option value="R5">Africa</option>
+                <option value="R6">Asia</option>
+                <option value="R7">Middle East</option>
+                <option value="R8">Oceania</option>
+            </select><br>
+            <button type="submit" name="submit">Sign Up!</button><br>
+            </form>
+    </div>
+    <img src="img1.jpg" width="200px" height="175px">
+    <div id="box1">
+        <h2>Don't Miss Out on these Community Benefits!</h2>
+        <p>239 Crafters Online...</p>
+        <p>Trending Now...</p>
+        <p>Helpful tutorials!</p>
+    </div>
+</body>
+</html>

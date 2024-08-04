@@ -1,0 +1,90 @@
+html {
+    background: gainsboro
+}
+body {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#wrapper {
+    width: 1000px;
+}
+#headerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+#header {
+    width: 740px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 6px;
+}
+#navbarwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+#navbar {
+    display: inline;
+    width: 730px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+#contentwrap {
+    width: 600px;
+    float: left;
+    margin: 0 auto;
+}
+#content {
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px;
+    line-height: 1.5;
+}
+#leftcolumnwrap {
+    width: 150px;
+    float: left;
+    margin: 0;
+}
+#leftcolumn {
+    border-radius: 10px;
+    margin: 4px;
+    line-height: 1.6;
+}
+#unorderedlistwrap {
+    width: 1000px;
+    float: center;
+    margin: 0;
+}
+#unorderedlist {
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 30%;
+    padding: 4px;
+}
+h1 { 
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+ }
+h2 { 
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;     
+}
+h3 { 
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

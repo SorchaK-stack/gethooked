@@ -1,0 +1,49 @@
+html{
+    background: #f2e8cf;
+}
+body{
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 10%;
+    color: #386641;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+}
+#logo{
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 150px;
+    height: 150px;
+}
+header{
+    margin-left: 30%;
+}
+
+h2{
+    margin: 0 auto;
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    width: 600px;
+    color: #bc4749;
+}
+table, th, td{
+    padding: 15px;
+}
+th{
+    color: #a7c957;
+    text-align: center
+}
+td{
+    width: 150px;
+    text-align: center;
+}
+#box1{
+    display: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
